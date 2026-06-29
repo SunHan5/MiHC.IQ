@@ -61,7 +61,7 @@ devtools::install_github("SunHan5/MiHC.IQ", force = TRUE)
 
 ## Usage
 ```
-result_omnibus <- MiHC.IQ(y, covs, otu.tab, tree, tau = -1, score = c("wilcoxon", "normal", "lehmann", "inverselehmann"), hs = c(1, 3, 5, 7, 9), W = TRUE,  comp = FALSE, CLR = FALSE, opt.ncl = 30, n.perm = 5000, seed = 123)
+MiHC.IQ(y, covs, otu.tab, tree, tau = -1, score = c("wilcoxon", "normal", "lehmann", "inverselehmann"), hs = c(1, 3, 5, 7, 9), W = TRUE,  comp = FALSE, CLR = FALSE, opt.ncl = 30, n.perm = 5000, seed = 123)
 ```
 
 
