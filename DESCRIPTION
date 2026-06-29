@@ -1,0 +1,18 @@
+Package: MiHC.IQ
+Type: Package
+Title: Microbiome Higher Criticism Test with Integrated Quantiles
+Version: 1.0
+Author: Han Sun, Peilin Pang, Yuejiao Qiao, Jinglei Song, Jianjun Zhang, Jianping Wang, Keqin Su, Liangliang Liu, Yuying Chen, Yuting Tan, Ban Huo, Ge Song
+Maintainer: Han Sun <sunh529@henau.edu.cn>
+Description: MiHC.IQ implements a unified analytical framework that integrates quantile regression with modulated higher criticism statistics for microbiome association analysis. It simultaneously addresses signal sparsity and distributional heterogeneity of host phenotypes, offering robust detection of sparse microbial association signals across the entire phenotypic distribution.
+Imports: phyloseq, compositions, quantreg, permute, cluster, MiRKAT,
+        MiHC, ACAT
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/SunHan5/MiHC.IQ
+Suggests: knitr, rmarkdown
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Depends: R (>= 3.5.0)
+Packaged: 2026-06-29 13:03:23 UTC; Sun
