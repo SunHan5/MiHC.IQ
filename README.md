@@ -118,7 +118,6 @@ cov <- data.frame(Age = as.numeric(sample.data$Age))
 Fit MiHC.IQ:
 
 ```
-set.seed(123)
 out <- MiHC.IQ(y = y, covs = cov, otu.tab = otu.tab, tree = tree, score = c("wilcoxon", "normal", "inverselehmann", "lehmann"))
 out
 ```
